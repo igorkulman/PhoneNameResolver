@@ -216,7 +216,7 @@ namespace Ailon.WP.Utils
             {
                 ReportedManufacturer = manufacturer,
                 ReportedModel = model,
-                CanonicalManufacturer = "MICROSOFT",
+                CanonicalManufacturer = "NOKIA",
                 CanonicalModel = model,
                 IsResolved = false
             };
