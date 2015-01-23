@@ -23,6 +23,7 @@ namespace Ailon.WP.Utils
             switch (manufacturerNormalized)
             {
                 case "NOKIA":
+                case "MICROSOFT":
                     return ResolveNokia(manufacturer, model);
                 case "HTC":
                     return ResolveHtc(manufacturer, model);
@@ -215,7 +216,7 @@ namespace Ailon.WP.Utils
             {
                 ReportedManufacturer = manufacturer,
                 ReportedModel = model,
-                CanonicalManufacturer = "NOKIA",
+                CanonicalManufacturer = "MICROSOFT",
                 CanonicalModel = model,
                 IsResolved = false
             };
@@ -373,7 +374,9 @@ namespace Ailon.WP.Utils
             { "WINDOWS PHONE 8X BY HTC", new CanonicalPhoneName() { CanonicalModel = "8X" } },
 
             // 8XT
+            { "HTCPO881", new CanonicalPhoneName() { CanonicalModel = "8XT", Comments="Sprint" } },
             { "HTCPO881 SPRINT", new CanonicalPhoneName() { CanonicalModel = "8XT", Comments="Sprint" } },
+            { "HTCPO881 HTC", new CanonicalPhoneName() { CanonicalModel = "8XT", Comments="Sprint" } },
 
             // Titan
             { "ETERNITY", new CanonicalPhoneName() { CanonicalModel = "Titan", Comments = "China" } },
@@ -393,7 +396,9 @@ namespace Ailon.WP.Utils
             { "RADAR C110E", new CanonicalPhoneName() { CanonicalModel = "Radar" } },
             
             // One M8
-            { "HTC6995LVW", new CanonicalPhoneName() { CanonicalModel = "One M8", Comments="Verizon" } },
+            { "HTC6995LVW", new CanonicalPhoneName() { CanonicalModel = "One (M8)", Comments="Verizon" } },
+            { "0P6B180", new CanonicalPhoneName() { CanonicalModel = "One (M8)", Comments="AT&T" } },
+            { "0P6B140", new CanonicalPhoneName() { CanonicalModel = "One (M8)", Comments="Dual SIM?" } },
 };
 
         private static Dictionary<string, CanonicalPhoneName> nokiaLookupTable = new Dictionary<string, CanonicalPhoneName>()
@@ -482,10 +487,12 @@ namespace Ailon.WP.Utils
             // Lumia 635
             { "RM-974", new CanonicalPhoneName() { CanonicalModel = "Lumia 635" } },
             { "RM-975", new CanonicalPhoneName() { CanonicalModel = "Lumia 635" } },
+            { "RM-1078", new CanonicalPhoneName() { CanonicalModel = "Lumia 635", Comments="Sprint" } },
             // Lumia 526
             { "RM-997", new CanonicalPhoneName() { CanonicalModel = "Lumia 526", Comments="China Mobile" } },
             // Lumia 930
             { "RM-1045", new CanonicalPhoneName() { CanonicalModel = "Lumia 930" } },
+            { "RM-1087", new CanonicalPhoneName() { CanonicalModel = "Lumia 930" } },
             // Lumia 636
             { "RM-1027", new CanonicalPhoneName() { CanonicalModel = "Lumia 636", Comments="China" } },
             // Lumia 638
@@ -495,6 +502,22 @@ namespace Ailon.WP.Utils
             { "RM-1018", new CanonicalPhoneName() { CanonicalModel = "Lumia 530", Comments="Single SIM" } },
             { "RM-1019", new CanonicalPhoneName() { CanonicalModel = "Lumia 530", Comments="Dual SIM" } },
             { "RM-1020", new CanonicalPhoneName() { CanonicalModel = "Lumia 530", Comments="Dual SIM" } },
+            // Lumia 730
+            { "RM-1040", new CanonicalPhoneName() { CanonicalModel = "Lumia 730", Comments="Dual SIM" } },
+            // Lumia 735
+            { "RM-1038", new CanonicalPhoneName() { CanonicalModel = "Lumia 735" } },
+            { "RM-1039", new CanonicalPhoneName() { CanonicalModel = "Lumia 735" } },
+            { "RM-1041", new CanonicalPhoneName() { CanonicalModel = "Lumia 735", Comments="Verizon" } },
+            // Lumia 830
+            { "RM-983", new CanonicalPhoneName() { CanonicalModel = "Lumia 830" } },
+            { "RM-984", new CanonicalPhoneName() { CanonicalModel = "Lumia 830" } },
+            { "RM-985", new CanonicalPhoneName() { CanonicalModel = "Lumia 830" } },
+            { "RM-1049", new CanonicalPhoneName() { CanonicalModel = "Lumia 830" } },
+            // Lumia 535
+            { "RM-1089", new CanonicalPhoneName() { CanonicalModel = "Lumia 535" } },
+            { "RM-1090", new CanonicalPhoneName() { CanonicalModel = "Lumia 535" } },
+            { "RM-1091", new CanonicalPhoneName() { CanonicalModel = "Lumia 535" } },
+            { "RM-1092", new CanonicalPhoneName() { CanonicalModel = "Lumia 535" } },
         };
     }
 
