@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>PhoneNameResolver</id>
-    <version>1.0.2</version>
+    <version>1.0.4</version>
     <title>PhoneNameResolver</title>
     <authors>Alan Mendelevich</authors>
     <owners>Igor Kulman</owners>
