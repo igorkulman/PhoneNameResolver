@@ -25,7 +25,7 @@
     <tags></tags>
   </metadata>
   <files>
-    <file src="PhoneNameResolver.dll" target="lib\portable-net40+sl4+win8+wp71+wpa81\PhoneNameResolver.dll" />
-    <file src="PhoneNameResolver.pdb" target="lib\portable-net40+sl4+win8+wp71+wpa81\PhoneNameResolver.pdb" />
+    <file src="PhoneNameResolver\bin\Release\PhoneNameResolver.dll" target="lib\portable-net40+sl4+win8+wp71+wpa81\PhoneNameResolver.dll" />
+    <file src="PhoneNameResolver\bin\Release\PhoneNameResolver.pdb" target="lib\portable-net40+sl4+win8+wp71+wpa81\PhoneNameResolver.pdb" />
   </files>
 </package>
