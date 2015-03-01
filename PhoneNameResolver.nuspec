@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>PhoneNameResolver</id>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <title>PhoneNameResolver</title>
     <authors>Alan Mendelevich</authors>
     <owners>Igor Kulman</owners>
@@ -18,7 +18,7 @@
     <projectUrl>https://github.com/ailon/PhoneNameResolver</projectUrl>    
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <licenseUrl>https://raw.githubusercontent.com/ailon/PhoneNameResolver/master/license.txt</licenseUrl>
-    <copyright>Copyright 2014</copyright>
+    <copyright>Copyright 2014 - 2015</copyright>
     <dependencies>
     </dependencies>
     <references></references>
