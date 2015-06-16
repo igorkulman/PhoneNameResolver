@@ -30,3 +30,4 @@ _ReSharper*/
 /build
 /packaging
 /tools/FAKE
+*.nupkg
