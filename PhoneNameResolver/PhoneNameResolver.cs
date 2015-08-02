@@ -266,6 +266,9 @@ namespace Ailon.WP.Utils
 
             // Jil Sander
             { "LG-E906", new CanonicalPhoneName() { CanonicalModel = "Jil Sander" } },
+
+            // Lancet
+            { "LGVW820", new CanonicalPhoneName() { CanonicalModel = "Lancet" } },
         };
 
         private static Dictionary<string, CanonicalPhoneName> samsungLookupTable = new Dictionary<string, CanonicalPhoneName>()
@@ -551,6 +554,7 @@ namespace Ailon.WP.Utils
             { "RM-1067", new CanonicalPhoneName() { CanonicalManufacturer="MICROSOFT", CanonicalModel = "Lumia 640 XL" } },
             { "RM-1096", new CanonicalPhoneName() { CanonicalManufacturer="MICROSOFT", CanonicalModel = "Lumia 640 XL" } },
             // Lumia 540
+            { "RM-1140", new CanonicalPhoneName() { CanonicalManufacturer="MICROSOFT", CanonicalModel = "Lumia 540" } },
             { "RM-1141", new CanonicalPhoneName() { CanonicalManufacturer="MICROSOFT", CanonicalModel = "Lumia 540" } },
             // Lumia 430 
             { "RM-1099", new CanonicalPhoneName() { CanonicalManufacturer="MICROSOFT", CanonicalModel = "Lumia 430", Comments="DS" } },
